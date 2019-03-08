@@ -5,7 +5,11 @@ $body-color: #000;
 @import "../node_modules/bootstrap/scss/bootstrap";
 @font-face {
     font-family: 'VWHead-ExtraBold';
-    src: url('../fonts/VWHead-ExtraBold.otf') format('embedded-opentype');
+    src: url('../fonts/VWHead-ExtraBold.otf');
+    src: url("../fonts/VWHead-ExtraBold.eot?#vw") format("embedded-opentype"),
+        url("../fonts/VWHead-ExtraBold.woff") format("woff"),
+        url("../fonts/VWHead-ExtraBold.ttf") format("truetype"),
+        url("../fonts/VWHead-ExtraBold.svg#VWHead-ExtraBold") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -13,6 +17,10 @@ $body-color: #000;
 @font-face {
     font-family: 'VWText';
     src: url('../fonts/VWText.eot') format('embedded-opentype');
+    src: url("../fonts/VWText.eot?#vw") format("embedded-opentype"),
+        url("../fonts/VWText.woff") format("woff"),
+        url("../fonts/VWText.ttf") format("truetype"),
+        url("../fonts/VWText.svg#VWText") format("svg");
     font-weight: normal;
     font-style: normal;
 }
