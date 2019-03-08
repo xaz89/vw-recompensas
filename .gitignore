@@ -1,0 +1,11 @@
+.git
+/git
+/git/
+node_modules
+/node_modules
+/node_modules/
+origin
+/origin
+/origin/
+package-lock.json
+package.json

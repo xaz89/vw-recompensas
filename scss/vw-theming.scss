@@ -1,0 +1,64 @@
+// Your variable overrides
+$body-bg: #fff;
+$body-color: #000;
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+@font-face {
+    font-family: 'VWHead-ExtraBold';
+    src: url('../fonts/VWHead-ExtraBold.otf') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VWText';
+    src: url('../fonts/VWText.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'VWText';
+}
+
+h2 {
+    font-family: 'VWHead-ExtraBold';
+}
+
+.logo {
+    min-height: 22.68%;
+}
+
+.bienvenido {
+    min-height: 60.19%;
+    display: block;
+    background-image: url(../img/hero-login.png);
+    background-position: center;
+    form {
+        color: $white;
+        input {
+            margin: 1rem 0;
+        }
+        button {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+input.form-control {
+    border-radius: 1.25rem;
+    border: 0;
+    padding: 0 2rem;
+}
+
+.entrar {
+    width: 100%;
+    border-radius: 1.25rem;
+    background: transparent;
+    border: 1px solid $white;
+}
